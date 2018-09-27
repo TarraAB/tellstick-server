@@ -14,6 +14,7 @@ The following applications must be available:
 * python (2.7)
 * virtualenv
 * Node.js
+* Npm
 
 ### Linux
 
