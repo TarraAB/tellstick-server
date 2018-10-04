@@ -11,7 +11,7 @@ import pkg_resources
 import yaml
 import gnupg
 from pip._internal.commands.download import DownloadCommand
-from pip._internal.utils.build import BuildDirectory
+from pip._internal.utils.temp_dir import TempDirectory
 
 class chdir(object):  # pylint: disable=C0103
 	def __init__(self, newDir):
