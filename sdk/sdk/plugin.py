@@ -10,8 +10,8 @@ from distutils.errors import DistutilsSetupError
 import pkg_resources
 import yaml
 import gnupg
-from pip.commands.download import DownloadCommand
-from pip.utils.build import BuildDirectory
+from pip._internal.commands.download import DownloadCommand
+from pip._internal.utils.build import BuildDirectory
 
 class chdir(object):  # pylint: disable=C0103
 	def __init__(self, newDir):
